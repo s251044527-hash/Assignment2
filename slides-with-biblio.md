@@ -148,5 +148,33 @@ Both factors independently reduce resistance. Since the goal is minimizing resis
 ::::
 
 ---
+
+# Cross-Machine Comparison
+
+:::::: {.columns}
+::: {.column width="50%"}
+### Resistance Trends
+Comparing Machines 1, 2, and 3:
+
+- **Machine 1** shows the lowest overall Resistance levels.
+- **Machine 2** consistently exhibits higher Resistance regardless of settings.
+- Increasing **Pressure** and **Temperature** generally reduces Resistance across all units.
+- The USL (10) is met more consistently by Machine 1.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/all_machines_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::::
+
+---
+
+# Conclusion: Interaction Effects
+
+- **Primary Drivers:** Pressure and Temperature are the main drivers of quality.
+- **Interaction P*T:** Across the manufacturing process, the interaction term is non-significant ($p > 0.05$).
+- **Recommendation:** Optimize Pressure and Temperature independently to minimize Resistance. Machine 1 is the preferred unit for meeting the "lower is better" criteria.
+
+---
 # Bibliography
 <div id="refs"></div>
