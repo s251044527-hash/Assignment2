@@ -89,3 +89,21 @@ The work done $W$ is positive when the system expands against an external pressu
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1 Resistance Analysis
+
+- **Temperature**: Highly Significant ($p = 0.0000$)
+- **Pressure**: Highly Significant ($p = 0.0000$)
+- **Interaction**: Not Significant ($p = 0.7222$)
+
+Both factors independently reduce resistance. Since the goal is minimizing resistance below the USL of 10, higher settings of both parameters appear beneficial.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m1_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
